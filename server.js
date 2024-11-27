@@ -10,7 +10,6 @@ app.use(express.json())
 
 app.post("/register", (request, response) => {
     const user = request.body.user
-    
     console.log(user)
 })
 
