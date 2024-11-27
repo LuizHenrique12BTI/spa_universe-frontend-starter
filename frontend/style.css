@@ -1,6 +1,10 @@
 @import "./css/global.css";
 @import "./css/header.css";
 
+
+body {
+    background-image: url(./assets/mountains-universe-1.png);
+}
 main {
     height: calc(100vh - 12.2rem);
     display: flex;
